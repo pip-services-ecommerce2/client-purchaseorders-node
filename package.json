@@ -39,7 +39,7 @@
         "retest": "tsc && mocha -t 10000 -R spec -u tdd --recursive ./obj/test"
     },
     "dependencies": {
-        "service-purchaseorders-node": "../service-purchaseorders-node",
+        "service-purchaseorders-node": "https://github.com/pip-services-ecommerce2/service-purchaseorders-node.git",
         "pip-services3-commons-nodex": "^1.0.*",
         "pip-services3-components-nodex": "^1.4.*",
         "pip-services3-rpc-nodex": "^1.2.*"
